@@ -11,7 +11,7 @@ li a
 	font-size: 1em;
 	text-align: center;
 	color: white;
-	background-color: gray;
+	background-color: #DDA0DD;
 	padding: 5px 10 px;
 	margin: 0px 0px 4px 0px;
 	border-radius: 4px;
@@ -19,15 +19,15 @@ li a
 	}
 li a: hover
 {
-	background: silver;
+	background: #D8BFD8;
 	box-shadow: 0px 0op 0px;
 }
 
 #naglowek
 {
-	background: gray;
+	background: #DDA0DD	;
 	text-align: center;
-	min-height: 100px;
+	min-height: 400px;
 }
 
 #menu
@@ -41,7 +41,7 @@ li a: hover
 {
 	float:left;
  width:70%;
- background: silver;
+ background: #FFE4E1;
  padding:20px;
  margin: 5px 5px 5px 5px;
  min-height:100%;
@@ -50,10 +50,11 @@ li a: hover
 #stopka
 {
 	clear:both;
-	background: gray;
+	background: #DDA0DD	;
 	text-align: center;
 	min-height: 50px;
 
 }
+
 
 

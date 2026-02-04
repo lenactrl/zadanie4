@@ -38,7 +38,8 @@ li a: hover
 }
 
 #informacje
-{float:left;
+{
+	float:left;
  width:70%;
  background: silver;
  padding:20px;
@@ -54,3 +55,4 @@ li a: hover
 	min-height: 50px;
 
 }
+

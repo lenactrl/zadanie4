@@ -25,9 +25,9 @@ li a: hover
 
 #naglowek
 {
-	backgrounf: gray;
+	background: gray;
 	text-align: center;
-	min-heigh: 100px;
+	min-height: 100px;
 }
 
 #menu
@@ -55,4 +55,5 @@ li a: hover
 	min-height: 50px;
 
 }
+
 

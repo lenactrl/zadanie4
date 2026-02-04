@@ -8,7 +8,7 @@ li a
 	{
 	display: block;
 	width: 100px;
-	font-size: lem;
+	font-size: 1em;
 	text-align: center;
 	color: white;
 	background-color: gray;
@@ -17,3 +17,40 @@ li a
 	border-radius: 4px;
 	box-shadow: 2px 2px 2px silver;
 	}
+li a: hover
+{
+	background: silver;
+	box-shadow: 0px 0op 0px;
+}
+
+#naglowek
+{
+	backgrounf: gray;
+	text-align: center;
+	min-heigh: 100px;
+}
+
+#menu
+{
+	float:left;
+	width:20%;
+
+}
+
+#informacje
+{float:left;
+ width:70%;
+ background: silver;
+ padding:20px;
+ margin: 5px 5px 5px 5px;
+ min-height:100%;
+}
+
+#stopka
+{
+	clear:both;
+	background: gray;
+	text-align: center;
+	min-height: 50px;
+
+}

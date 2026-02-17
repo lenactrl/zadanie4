@@ -1,0 +1,91 @@
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />  
+  <title>Kalkulator</title>
+</head>
+<body>
+
+<script language="JavaScript">
+function dodawanie() {
+/* Odwołanie do formularza i jego elementów przez nazwę*/
+var skl1=parseFloat(document.FormDod.a_dod.value);
+var skl2=parseFloat(document.FormDod.b_dod.value);
+var wynik = skl1+skl2;
+alert(wynik);
+}
+</script>
+
+<form name="FormDod">
+a=<input type="Text" name="a_dod"><br>
+b=<input type="Text" name="b_dod"><br>
+<input type="Button" value="Oblicz sumę" onclick="dodawanie()">
+</form>
+<hr>
+
+
+
+<script language="JavaScript">
+function odejmowanie() {
+/* Odwołanie do formularza i jego elementów przez indeks
+Formularz o nazwie jakas_wymyslona_nazwa1 jest drugim formularzem w dokumencie więc ma indeks równy 1
+Pole tekstowe o nazwie jakas_wymyslona_nazwa2 jest pierwszym elementem formularza więc ma indeks równy 0
+*/
+var skl1=parseFloat(document.forms[1].elements[0].value);
+var skl2=parseFloat(document.forms[1].elements[1].value);
+var wynik = skl1-skl2;
+alert(wynik);
+}
+</script>
+
+<form name="jakas_wymyslona_nazwa1">
+a=<input type="Text" name="jakas_wymyslona_nazwa2"><br>
+b=<input type="Text" name="jakas_wymyslona_nazwa3"><br>
+<input type="Button" value="Oblicz różnicę" onclick="odejmowanie()">
+</form>
+
+
+
+
+<script language="JavaScript">
+function mnozenie() {
+/* Odwołanie do formularza i jego elementów przez nazwę*/
+var skl1=parseFloat(document.FormMnoz.a_mnoz.value);
+var skl2=parseFloat(document.FormMnoz.b_mnoz.value);
+var wynik = skl1*skl2;
+alert(wynik);
+}
+</script>
+
+<form name="FormMnoz">
+a=<input type="Text" name="a_mnoz"><br>
+b=<input type="Text" name="b_mnoz"><br>
+<input type="Button" value="Oblicz iloczyn" onclick="mnozenie()">
+</form>
+<hr>
+
+
+
+
+<script language="JavaScript">
+function dzielenie() {
+/* Odwołanie do formularza i jego elementów przez nazwę*/
+var skl1=parseFloat(document.FormDziel.a_dziel.value);
+var skl2=parseFloat(document.FormDziel.b_dziel.value);
+var wynik = skl1/skl2;
+alert(wynik);
+}
+</script>
+
+<form name="FormDziel">
+a=<input type="Text" name="a_dziel"><br>
+b=<input type="Text" name="b_dziel"><br>
+<input type="Button" value="Oblicz iloraz" onclick="dzielenie()">
+</form>
+<hr>
+
+
+
+
+
+</body>
+</html>

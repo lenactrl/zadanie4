@@ -11,7 +11,7 @@ li a
 	font-size: 1em;
 	text-align: center;
 	color: white;
-	background-color: #8FBC8F;
+	background-color: #006400;
 	padding: 8px 10px;
 	margin-bottom: 6px;
 	border-radius: 4px;
@@ -27,7 +27,7 @@ li a:hover
 {
   background-image: url("szkola.png");
   background-size: cover;
-  text-align: justify;
+  text-align: center;
   min-height: 100px;
   font-size: xx-large;
   color: black;
@@ -45,7 +45,7 @@ li a:hover
 {
 	float:left;
  width:70%;
- background: #8FBC8F;
+ background: #556B2F;
  padding:20px;
  margin: 5px 5px 5px 5px;
  min-height:100%;
@@ -54,11 +54,12 @@ li a:hover
 #stopka
 {
 	clear:both;
-	background: #556B2F	;
+	background: #006400	;
 	text-align: center;
 	min-height: 50px;
 
 }
+
 
 
 

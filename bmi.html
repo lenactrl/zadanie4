@@ -1,0 +1,44 @@
+<html>
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />  
+  <title>KalkulatorBMI</title>
+</head>
+<body style="font-family: Georgia; padding: 40px;">
+
+<h1>Kalkulator BMI</h1>
+
+<script language="JavaScript">
+function bmi() {
+var skl1=parseFloat(document.FormBMI.waga.value);
+
+var skl2=parseFloat(document.FormBMI.wzrost.value);
+var wynik = skl1/(skl2**2/10000);
+alert(Number(Math.round(wynik + 'e+2') + 'e-2'));
+}
+</script>
+
+<form name="FormBMI">
+Wzrost [cm]:=<input type="Text" name="wzrost"><br>
+<br>
+Waga [kg]:=<input type="Text" name="waga"><br>
+<br>
+<h2>Wiek:</h2>
+<input type="radio" name="nazwa" value="19-24 lata" >19-24 lata<br><br>
+<input type="radio" name="nazwa" value="25-34 lata" >25-34 lata<br><br>
+<input type="radio" name="nazwa" value="35-44 lata" >35-44 lata<br><br>
+<input type="radio" name="nazwa" value="45-54 lata" >45-54 lata<br><br>
+<input type="radio" name="nazwa" value="55-64 lata" >55-64 lata<br><br>
+<input type="radio" name="nazwa" value="ponad 64 lata" >ponad 64 lata<br><br>
+<hr>
+<br>
+<br>
+<input type="Button" value="Oblicz BMI" onclick="bmi()">
+</form>
+
+
+
+
+
+
+</body>
+</html>
